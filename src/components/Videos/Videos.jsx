@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { ChannelCard, VideoCard } from "../index";
-import { Section } from "./VideosStyles";
+import { Section, VideoContainer } from "./VideosStyles";
 
 const Videos = ({ videos }) => {
   console.log(videos);
@@ -9,10 +9,10 @@ const Videos = ({ videos }) => {
     <Section>
       {videos.map((video, index) => {
         return (
-          <div key={index}>
+          <VideoContainer key={index}>
             {video.id.videoId && <VideoCard video={video} />}
             {video.id.channelId && <ChannelCard details={video} />}
-          </div>
+          </VideoContainer>
         );
       })}
     </Section>

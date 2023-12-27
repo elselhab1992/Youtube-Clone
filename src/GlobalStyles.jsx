@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
         font-family: poppins,sans-serif;
         width: 100%;
         min-height: 100vh;
+        padding-top: 100px;
         background-color: ${(props) => props.theme.colors.black};
         color: ${(props) => props.theme.colors.primary};
         text-transform: capitalize;

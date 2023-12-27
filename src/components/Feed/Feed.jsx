@@ -1,4 +1,4 @@
-import { Section, SideContainer, Span } from "./FeedStyles";
+import { Copyright, Section, SideContainer, Span } from "./FeedStyles";
 import { Sidebar, Videos } from "../index";
 import { fetchFromAPI } from "../../utils/fetchFromAPI";
 import { useEffect, useState } from "react";
@@ -20,7 +20,7 @@ const Feed = () => {
           selectedCategory={selectedCategory}
           setSelectedCategory={setSelectedCategory}
         />
-        <p>copyright@2023 Mo Elselhab</p>
+        <Copyright>copyright@2023 Mo</Copyright>
       </SideContainer>
       <div>
         <h2>

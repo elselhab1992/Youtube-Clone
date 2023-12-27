@@ -6,8 +6,6 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 380px;
-  height: 370px;
 `;
 
 const CardInfo = styled.div`
@@ -19,7 +17,7 @@ const CardInfo = styled.div`
   padding: 1rem;
   background-color: #1e1e1e;
   width: 100%;
-  height: 150px;
+  height: 110px;
 `;
 
 const ChannelName = styled.div`

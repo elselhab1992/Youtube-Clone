@@ -19,6 +19,7 @@ import {
   FaGamepad,
   FaLaugh,
   FaMoneyBillWave,
+  FaPlaneDeparture,
 } from "react-icons/fa";
 import { IoSchool, IoAmericanFootballOutline } from "react-icons/io5";
 import { BiSolidMoviePlay } from "react-icons/bi";
@@ -29,7 +30,7 @@ import { CgGym } from "react-icons/cg";
 
 export const categories = [
   { name: "New", icon: <FaHome /> },
-  { name: "JS Mastery", icon: <FaCode /> },
+  { name: "Travel With Mo", icon: <FaPlaneDeparture /> },
   { name: "Coding", icon: <FaCode /> },
   { name: "ReactJS", icon: <FaCode /> },
   { name: "NextJS", icon: <FaCode /> },

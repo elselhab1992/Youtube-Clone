@@ -9,10 +9,12 @@ const Container = styled.div`
 
   @media (min-width: 300px) {
     flex-direction: row;
+    gap: 5px;
   }
 
   @media (min-width: 1200px) {
     flex-direction: column;
+    gap: 10px;
   }
 `;
 
@@ -35,6 +37,20 @@ const Button = styled.button`
     background-color: ${(props) => props.theme.colors.secondary};
     opacity: 0.8;
     cursor: pointer;
+  }
+
+  @media (min-width: 300px) {
+    justify-content: center;
+    width: 9rem;
+    gap: 5px;
+    padding: 5px;
+  }
+
+  @media (min-width: 1200px) {
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 12rem;
+    padding: 7px 10px;
   }
 `;
 
