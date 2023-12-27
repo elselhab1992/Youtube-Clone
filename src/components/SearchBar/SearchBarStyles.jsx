@@ -30,7 +30,7 @@ const Form = styled.form`
 
 const Input = styled.input`
   width: 90%;
-  height: 100%;
+  background-color: ${(props) => props.theme.colors.primary};
   border: none;
   outline: none;
   font-weight: ${(props) => props.theme.fontWeight.extraBold};
