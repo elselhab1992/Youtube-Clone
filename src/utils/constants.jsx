@@ -48,11 +48,11 @@ export const categories = [
   { name: "Crypto", icon: <FaMoneyBillWave /> },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
-export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
-export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+export const demoThumbnailUrl =
+  "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
+export const demoChannelUrl = "www.youtube.com/@Mo1992";
+export const demoVideoUrl = "https://youtu.be/ZgkjrZ-GEFs?si=T3VCUZMenTZc5vDt";
+export const demoChannelTitle = "Travel With Mo";
+export const demoVideoTitle = "Liverpool Vlog Winter 2022";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";

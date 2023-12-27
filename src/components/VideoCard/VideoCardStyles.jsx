@@ -6,6 +6,13 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: #1e1e1e;
+`;
+
+const CardImg = styled.img`
+  width: 380px;
+  height: 220px;
+  object-fit: cover;
 `;
 
 const CardInfo = styled.div`
@@ -15,7 +22,7 @@ const CardInfo = styled.div`
   align-items: flex-start;
   gap: 5px;
   padding: 1rem;
-  background-color: #1e1e1e;
+
   width: 100%;
   height: 110px;
 `;
@@ -36,4 +43,4 @@ const CheckCircle = styled(IoCheckmarkCircle)`
   color: grey;
 `;
 
-export { Card, CardInfo, ChannelName, Channel, CheckCircle };
+export { Card, CardImg, CardInfo, ChannelName, Channel, CheckCircle };

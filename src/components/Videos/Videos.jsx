@@ -5,7 +5,7 @@ import { ChannelCard, VideoCard } from "../index";
 import { Div, Loading, Section, VideoContainer } from "./VideosStyles";
 
 const Videos = ({ videos }) => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   if (isLoading) {
     return (

@@ -10,6 +10,7 @@ const Nav = styled.nav`
   top: 0;
   left: 0;
   right: 0;
+  background-color: ${(props) => props.theme.colors.black};
 
   @media (min-width: 300px) {
     padding: 10px;

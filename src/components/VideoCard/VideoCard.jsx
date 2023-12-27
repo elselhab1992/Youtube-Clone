@@ -4,6 +4,7 @@
 import { Link } from "react-router-dom";
 import {
   Card,
+  CardImg,
   CardInfo,
   Channel,
   ChannelName,
@@ -27,11 +28,9 @@ const VideoCard = ({
   return (
     <Card>
       <Link to={videoId ? `/video/${videoId}` : demoVideoUrl}>
-        <img
+        <CardImg
           src={snippet?.thumbnails?.high?.url}
           alt={snippet?.title.slice(0, 60)}
-          width={380}
-          height={220}
         />
       </Link>
       <CardInfo>
