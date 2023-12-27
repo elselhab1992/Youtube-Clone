@@ -1,9 +1,19 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
+import { useState } from "react";
 import { ChannelCard, VideoCard } from "../index";
-import { Section, VideoContainer } from "./VideosStyles";
+import { Div, Loading, Section, VideoContainer } from "./VideosStyles";
 
 const Videos = ({ videos }) => {
-  console.log(videos);
+  const [isLoading, setIsLoading] = useState(true);
+
+  if (isLoading) {
+    return (
+      <Div>
+        <Loading />
+      </Div>
+    );
+  }
 
   return (
     <Section>
