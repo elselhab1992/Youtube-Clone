@@ -8,6 +8,7 @@ const ChannelLogo = styled.div`
   align-items: center;
   gap: 10px;
   margin: auto;
+  line-height: 1;
 `;
 
 export { ChannelLogo };

@@ -25,9 +25,9 @@ const ChannelCard = ({ details }) => {
         </ChannelName>
       </Link>
       {details?.statistics?.subscriberCount && (
-        <p>
+        <p style={{ color: "grey" }}>
           {parseInt(details?.statistics?.subscriberCount).toLocaleString()}
-          Subscribers
+          <span style={{ marginLeft: 5 }}>Subscribers</span>
         </p>
       )}
     </ChannelLogo>
