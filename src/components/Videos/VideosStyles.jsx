@@ -10,8 +10,17 @@ const Section = styled.section`
     grid-template-columns: 1fr;
   }
 
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 1024px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   @media (min-width: 1200px) {
     grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
   }
 `;
 
@@ -22,6 +31,10 @@ const VideoContainer = styled.div`
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 1rem;
+
+  @media (min-width: 300px) {
+    width: 100%;
+  }
 `;
 
 const Div = styled.div`

@@ -6,13 +6,23 @@ const Card = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #1e1e1e;
+  width: 100%;
 `;
 
 const CardImg = styled.img`
   width: 380px;
   height: 220px;
   object-fit: cover;
+
+  @media (min-width: 300px) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 1200px) {
+    width: 380px;
+    height: 220px;
+  }
 `;
 
 const CardInfo = styled.div`
@@ -22,9 +32,13 @@ const CardInfo = styled.div`
   align-items: flex-start;
   gap: 5px;
   padding: 1rem;
-
+  background-color: #1e1e1e;
   width: 100%;
   height: 110px;
+
+  @media (min-width: 1200px) {
+    width: 380px;
+  }
 `;
 
 const ChannelName = styled.div`
