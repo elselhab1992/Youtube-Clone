@@ -4,7 +4,6 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 const Section = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
 
   @media (min-width: 300px) {
     grid-template-columns: 1fr;
@@ -12,6 +11,7 @@ const Section = styled.section`
 
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 
   @media (min-width: 1024px) {

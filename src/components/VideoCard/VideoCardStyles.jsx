@@ -32,7 +32,6 @@ const CardInfo = styled.div`
   align-items: flex-start;
   gap: 5px;
   padding: 1rem;
-  background-color: #1e1e1e;
   width: 100%;
   height: 110px;
 
